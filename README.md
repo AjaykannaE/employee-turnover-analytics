@@ -2,10 +2,10 @@
 
 An end-to-end Machine Learning project focused on predicting employee attrition using HR analytics data.
 
-## 📌 Problem Statement
+## Problem Statement
 To identify employees at risk of leaving and support proactive HR intervention strategies.
 
-## ⚙️ Project Workflow
+## Project Workflow
 - Data Cleaning & Quality Checks
 - Exploratory Data Analysis (EDA)
 - K-Means Clustering of employees who left
@@ -18,11 +18,11 @@ To identify employees at risk of leaving and support proactive HR intervention s
 - Hyperparameter Tuning (GridSearchCV)
 - Probability-Based Risk Segmentation Framework
 
-## 📊 Model Performance
+## Model Performance
 - ROC-AUC ≈ 0.98 (Tuned Ensemble Models)
 - High Recall for identifying employees likely to leave
 
-## 🎯 Business Insight
+## Business Insight
 Designed a 4-level risk segmentation model:
 - Safe Zone
 - Low Risk
@@ -31,7 +31,7 @@ Designed a 4-level risk segmentation model:
 
 Each segment includes targeted retention strategy recommendations.
 
-## 🛠 Tech Stack
+## Tech Stack
 Python, Pandas, NumPy, Scikit-Learn, Imbalanced-learn, Matplotlib, Seaborn
 
 ---
