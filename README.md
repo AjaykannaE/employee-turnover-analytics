@@ -1,9 +1,10 @@
 # Employee Turnover Analytics — Machine Learning Project
-
-An end-to-end Machine Learning project focused on predicting employee attrition using HR analytics data.
+An end-to-end Machine Learning project focused on predicting 
+employee attrition using HR analytics data.
 
 ## Problem Statement
-To identify employees at risk of leaving and support proactive HR intervention strategies.
+To identify employees at risk of leaving and support proactive 
+HR intervention strategies.
 
 ## Project Workflow
 - Data Cleaning & Quality Checks
@@ -22,6 +23,7 @@ To identify employees at risk of leaving and support proactive HR intervention s
 - ROC-AUC ≈ 0.98 (Tuned Ensemble Models)
 - High Recall for identifying employees likely to leave
 
+
 ## Business Insight
 Designed a 4-level risk segmentation model:
 - Safe Zone
@@ -32,8 +34,14 @@ Designed a 4-level risk segmentation model:
 Each segment includes targeted retention strategy recommendations.
 
 ## Tech Stack
-Python, Pandas, NumPy, Scikit-Learn, Imbalanced-learn, Matplotlib, Seaborn
+Python, Pandas, NumPy, Scikit-Learn, Imbalanced-learn, 
+Matplotlib, Seaborn
 
 ---
 
-This project is documented with structured explanations to support both practical implementation and educational learning.
+## Author
+**Ajaykanna E**
+AI Learner 
+
+This project is documented with structured explanations 
+to support both practical implementation and educational learning.
