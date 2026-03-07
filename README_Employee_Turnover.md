@@ -1,11 +1,11 @@
-# 👥 Employee Turnover Analytics
+# Employee Turnover Analytics
 ### Machine Learning Project — Portobello Tech
 
 **Author:** Ajaykanna E | **Course:** Machine Learning using Python
 
 ---
 
-## 📌 Problem Background
+## Problem Background
 
 Portobello Tech periodically evaluates employee work details to predict turnover.
 The HR Department uses this data to identify at-risk employees and plan targeted retention strategies.
@@ -14,7 +14,7 @@ The HR Department uses this data to identify at-risk employees and plan targeted
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 **File:** `HR_comma_sep.csv` — 14,999 employee records with 10 features
 
@@ -33,7 +33,7 @@ The HR Department uses this data to identify at-risk employees and plan targeted
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 ├── Employee_Turnover_Analytics_Final_3.ipynb   # Main notebook
@@ -43,7 +43,7 @@ The HR Department uses this data to identify at-risk employees and plan targeted
 
 ---
 
-## 🔍 Tasks Covered
+## Tasks Covered
 
 ### Task 1 — Data Quality Check
 - Verified zero missing values across all columns
@@ -95,7 +95,7 @@ Three models trained and evaluated using ROC-AUC as the primary metric:
 - Pipeline: `SMOTE → RandomForestClassifier`
 - Hyperparameter tuning via GridSearchCV
 - **Best params:** `n_estimators=200, max_depth=10, min_samples_leaf=3`
-- **Best CV ROC-AUC: 0.9827** ✅
+- **Best CV ROC-AUC: 0.9827** 
 
 #### Gradient Boosting Classifier
 - Pipeline: `SMOTE → GradientBoostingClassifier`
@@ -119,24 +119,24 @@ Employees scored by predicted turnover probability and segmented into 4 zones:
 
 | Zone | Probability | Action |
 |------|-------------|--------|
-| 🟢 Safe Zone | < 20% | Maintain engagement, periodic check-ins |
-| 🟡 Low-Risk Zone | 20–60% | Monitor closely, career growth conversations |
-| 🟠 Medium-Risk Zone | 60–90% | Immediate manager intervention, workload review |
-| 🔴 High-Risk Zone | > 90% | Critical — compensation review, urgent retention action |
+| Safe Zone | < 20% | Maintain engagement, periodic check-ins |
+| Low-Risk Zone | 20–60% | Monitor closely, career growth conversations |
+| Medium-Risk Zone | 60–90% | Immediate manager intervention, workload review |
+| High-Risk Zone | > 90% | Critical — compensation review, urgent retention action |
 
 ---
 
-## 📊 Model Performance Summary
+## Model Performance Summary
 
 | Model | CV ROC-AUC | Notes |
 |-------|------------|-------|
 | Logistic Regression | ~0.78 | Baseline |
-| Random Forest (Tuned) | **0.9827** ✅ | Best Model |
+| Random Forest (Tuned) | **0.9827** | Best Model |
 | Gradient Boosting (Tuned) | ~0.98 | Strong alternative |
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Tools |
 |----------|-------|
@@ -151,7 +151,7 @@ Employees scored by predicted turnover probability and segmented into 4 zones:
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. **Clone the repository**
    ```bash
@@ -174,7 +174,7 @@ Employees scored by predicted turnover probability and segmented into 4 zones:
 
 ---
 
-## 💡 Key Business Insights
+## Key Business Insights
 
 - **Satisfaction level is the #1 predictor** of turnover — HR should prioritize regular satisfaction surveys.
 - **Workload sweet spot is 3–4 projects** — under and overloading both drive attrition significantly.
