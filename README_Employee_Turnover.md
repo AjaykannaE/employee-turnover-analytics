@@ -136,7 +136,7 @@ Employees scored by predicted turnover probability and segmented into 4 zones:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Tools |
 |----------|-------|
@@ -173,7 +173,7 @@ Employees scored by predicted turnover probability and segmented into 4 zones:
 
 ---
 
-## 💡 Key Business Insights
+## Key Business Insights
 
 - **Satisfaction level is the #1 predictor** of turnover — HR should prioritize regular satisfaction surveys.
 - **Workload sweet spot is 3–4 projects** — under and overloading both drive attrition significantly.
