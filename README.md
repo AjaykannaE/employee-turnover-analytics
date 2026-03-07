@@ -183,8 +183,3 @@ Employees scored by predicted turnover probability and segmented into 4 zones:
 - **Three distinct leaver profiles exist** — each requiring a different retention approach (recognition, engagement, or competitive offers).
 - The **Random Forest model with SMOTE** can flag at-risk employees before they resign, enabling proactive intervention.
 
----
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
