@@ -40,6 +40,9 @@ The HR Department uses this data to identify at-risk employees and plan targeted
 ├── HR_comma_sep.csv                             # HR dataset
 └── README.md
 ```
+## Additional Resources
+This repository also includes a project summary document and interview questions
+for learners who want to understand the concepts covered in this project.
 
 ---
 
